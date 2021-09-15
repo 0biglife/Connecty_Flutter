@@ -1,8 +1,8 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({
+class ProfileTest extends StatelessWidget {
+  const ProfileTest({
     Key? key,
   }) : super(key: key);
 

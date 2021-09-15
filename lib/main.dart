@@ -1,5 +1,6 @@
 import 'package:connecty_flutter/word_list_page.dart';
 import 'package:flutter/material.dart';
+import 'home_view.dart';
 import 'login_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(), //WordListPage(),
+      home: HomeView(), //WordListPage(),
     );
-  } // 
+  } //
 }
